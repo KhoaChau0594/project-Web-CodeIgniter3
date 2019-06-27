@@ -1,0 +1,28 @@
+.footer{
+   bottom: 0;
+   width: 100%;
+   padding: 0;
+}
+
+.footer ul{
+	padding: 10px 0px;
+	margin: 0;
+}
+
+.footer li{
+	list-style: none;
+	color: #acacac;
+	font-size: 14px;
+}
+
+.footer .footer-upper{
+	background: #2e2e2e;
+}
+
+.footer .footer-center{
+	background: #232323;
+}
+
+.footer .footer-bottom{
+	background:  #101010;
+}

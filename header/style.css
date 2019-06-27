@@ -1,0 +1,132 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	z-index: 999;
+    position: fixed;
+    background: white;
+    box-shadow: 0 1px 8px 0 rgba(0,0,0,0.58);
+}
+
+.container-fluid{
+	padding: 0;
+}
+
+div.header-menu-container{
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;	
+}
+
+
+div.container div.header-menu-container {
+	width: 85%;
+	margin: auto;
+}
+
+div.header-menu-container nav.header-menu{
+	display: inline-block;
+	vertical-align: middle;
+	text-align: left;
+	font-size: 14px;
+	float: right;
+	background: white;
+	height: 84px;
+	/*position: absolute;
+	top: 40px;
+	right: 0px;*/
+}
+
+div.header-menu-container nav.header-menu>ul>li{
+	background: white;
+}
+div.header-menu-container>a.icon{
+	position: absolute;
+    right: 40px;
+    top: 25px;
+    font-size: 20px;
+    display: none;
+}
+
+div.header-menu-container ul.first{
+	/*display: inline-block;*/
+	z-index: 1;
+	padding: 0;
+}
+
+div.header-menu-container ul.first>li{
+	display: inline-block; 
+  	list-style: none;
+}
+
+div.header-menu-container ul.first>li>a{
+	display: block;
+	padding: 0 20px;
+	line-height: 84px; /*---------------------------------*/
+	color: #232323;
+	font-weight: 500;
+	text-transform: uppercase;
+	font-size: 14px;
+/*    	background: #E1BD85;*/
+}
+
+div.header-menu-container ul.first>li:hover{
+	background: #E1BD85;
+}
+
+div.header-menu-container a{
+	text-decoration: none;
+}
+
+.search{
+	padding: 35px;
+}
+
+/*--------------------drop down---------------------------------*/
+div.header-menu-container ul li ul.dropdown{
+	position: absolute;
+	display: none;
+	list-style: none;
+	color: black;
+	width: 256px;
+	border: 1px solid #F1F1F1;
+	background: white;
+	padding: 10px 0px
+}
+
+div.header-menu-container ul li ul.dropdown>li{
+	padding: 5px 10px;
+}
+
+div.header-menu-container ul li ul.dropdown>li>a{
+	color: black;
+
+}
+
+div.header-menu-container ul.first>li:hover ul{
+	display: block;
+}
+
+div.header-menu-container ul.first>li:hover ul>li:hover{
+	background: #E1BD85;
+}
+
+/*------------------------Responsive-----------------------------------------*/
+@media screen and (max-width: 1200px) {
+	div.header-menu-container>nav{
+		display: none !important;
+	}
+
+	div.header-menu-container a.icon{
+		display: inline-block;
+	}
+
+	div.header-menu-container a.icon:hover{
+		color: #E1BD85;
+	}
+}
+
+menu-mobile{
+	
+}

@@ -1,0 +1,334 @@
+*{
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif
+	,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+/*.picture{
+	position: relative;
+	z-index: -1;
+}*/
+ /*------------checkAvaibilityPanel xs ---------------*/
+.checkAvaibilityPanelxs{
+	background: rgba(0,0,0,0.5);
+	height: 225px;
+	position: absolute;
+	top: 475px;
+	width: 100%;
+	z-index: 9;
+	padding-bottom: 0.5cm;
+}
+
+input[type=submit]{
+	color: white;
+	font-weight: 500;
+}
+
+.checkAvaibilityPanelxs label{
+	color: #E1BD85;
+}
+
+form.checkAvaibility{
+	position: absolute;
+	top: 50%; left: 50%;
+	transform: translate(-50%, -50%);
+	height: 100%;
+}
+
+/*----------------------------------------------------*/
+.checkAvaibility{
+	background: rgba(0,0,0,0.5);
+	position: relative;
+	top: -220px;
+	width: 100%;
+	height: 200px;
+	padding-top: 10px;
+}
+
+.findRoomBtn{
+	background: #E1BD85;
+	width: 100px;
+	height: 34px;
+	border: 1px solid white;
+	border-radius: 4px;
+	position: relative;
+	top: 25px;
+	width: 100%;
+}
+
+h1,h2,h3,h4,h5{
+	margin: 0;
+	font-weight: 600;
+}
+
+hr{
+	border-color: #E1BD85;
+}
+
+#readMoreBtn{
+	background: white;
+	border: 2px solid black;
+	padding: 4px 5px;
+}
+
+.roomAndRate{
+	/*background-image: url(./UI/image/backGround01.jpg);*/
+
+	/* Add the blur effect */
+	  /*filter: opacity(30%);
+	  -webkit-filter: opacity(30%);
+
+	   Full height 
+	  height: 100%; */
+
+	  /* Center and scale the image nicely */
+	/*  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;*/
+}
+
+section.roomAndRate img.roomImg{
+	width: 100%;
+	height: 230px;
+	margin-top: 20px;
+}
+/*-------------------------------price tag-------------------------------*/
+section.roomAndRate img.roomImg:hover + div.priceTag{
+	display: block;
+}
+
+div.priceTag{
+	display: none;
+	position: absolute;
+    top: 60%;
+    left: -43.9%;
+    height: 60px;
+    z-index: 9;
+    transform: translate(50%,50%);
+    background: rgba(0,0,0,0.5);
+    color: white;
+    padding: 10px;
+    width: 349.25px;
+    max-width: 350px;
+}
+
+div.priceTag:hover{
+	display: block;
+}
+
+div.priceTag span{
+	font-size: 20px;
+}
+/*-------------------------------price tag lg -------------------------------*/
+section.roomAndRate img.roomImg:hover + div.priceTaglg{
+	display: block;
+}
+
+div.priceTaglg{
+	display: none;
+	position: absolute;
+    top: 60%;
+    left: -42.6%;
+    height: 60px;
+    z-index: 9;
+    transform: translate(50%,50%);
+    background: rgba(0,0,0,0.5);
+    color: white;
+    padding: 10px;
+    width: 290px;
+    max-width: 350px;
+}
+
+div.priceTaglg:hover{
+	display: block;
+}
+
+div.priceTaglg span{
+	font-size: 18px;
+}
+/*----------------------------price tag md -------------------------------------*/
+section.roomAndRate img.roomImg:hover + div.priceTagmd{
+	display: block;
+}
+
+div.priceTagmd{
+	display: none;
+	position: absolute;
+    top: 60%;
+    left: -43.7%;
+    height: 60px;
+    z-index: 9;
+    transform: translate(50%,50%);
+    background: rgba(0,0,0,0.5);
+    color: white;
+    padding: 10px;
+    width: 326px;
+    max-width: 350px;
+}
+
+div.priceTagmd:hover{
+	display: block;
+}
+
+div.priceTagmd span{
+	font-size: 20px;
+}
+/*---------------------------price tag sm ----------------------------------------*/
+section.roomAndRate img.roomImg:hover + div.priceTagsm{
+	display: block;
+}
+
+div.priceTagsm{
+	display: none;
+	position: absolute;
+    top: 60%;
+    left: -31.5%;
+    height: 60px;
+    z-index: 9;
+    transform: translate(50%,50%);
+    background: rgba(0,0,0,0.5);
+    color: white;
+    padding: 10px;
+    width: 510px;
+    max-width: 350px;
+}
+
+div.priceTagsm:hover{
+	display: block;
+}
+
+div.priceTagsm span{
+	font-size: 20px;
+}
+
+/*---------------------------price tag xs ----------------------------------------*/
+section.roomAndRate img.roomImg:hover + div.priceTagxs{
+	display: block;
+}
+
+div.priceTagxs{
+	display: none;
+	position: absolute;
+    top: 60%;
+    left: -32.7%;
+    height: 60px;
+    z-index: 9;
+    transform: translate(50%,50%);
+    background: rgba(0,0,0,0.5);
+    color: white;
+    padding: 10px;
+    width: 510px;
+    max-width: 350px;
+}
+
+div.priceTagxs:hover{
+	display: block;
+}
+
+div.priceTagxs span{
+	font-size: 20px;
+}
+
+/*------------------------------------------*/
+.brown{
+	color: #E1BD85;
+}
+
+div.priceTag .roomPrice{
+	font-size: 25px;
+}
+
+span.icon{
+	padding: 17px 5px 8px 5px;
+	border: 2px solid #E1BD85;
+}
+
+span.restaurant{
+	padding: 17px 12px 8px 11px;
+}
+
+span.service{
+	font-weight: 500;
+}
+
+button{
+	font-weight: 500;
+}
+
+div.service{margin: 20px 0;}
+
+i.fas{
+	color:  #E1BD85;
+}
+
+img.slideImg{
+	width: 525px;
+	height: 262px;
+}
+
+/*------------------------------------------------------------Guest Review------------------------*/
+#guest_review{
+
+	background-size: cover;
+	background-attachment: fixed;
+	height: 400px;
+}
+
+#blur_container{
+	background:rgba(0,0,0,0.58);
+	height: 100%;
+
+	position: relative;
+}
+
+.guestBook{
+	color: white;
+	position: absolute;
+	top: 50%; left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.avatar{
+	width: 150px;
+	border-radius: 50%;
+}
+
+div.guestBook-item p{
+	color: #ffffff;
+    line-height: 1.4em;
+    font-size: 15px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+div.guestBook-item p.qoute::before{
+	position: absolute;
+    font-family: Montserrat;
+    content: "“";
+    top: -5px;
+    left: -9px;
+    font-size: 40px;
+}
+
+div.guestBook-item p.qoute::after{
+	font-family: Montserrat;
+    content: "„";
+    font-size: 40px;
+    line-height: 0;
+    margin-left: 10px;
+}
+
+div.guestBook-item .text{
+	position: relative;
+}
+
+h1.guestName{
+	margin-top: 5px;
+}
+
+p.qoute{
+	width: 90%;
+	margin-top: 10px;
+}
+
+.item{
+	width: 720px;
+}

@@ -1,0 +1,117 @@
+*{
+	text-align: left;
+	font-size: 14px;
+}
+
+p{
+	margin-bottom: 0;
+}
+
+.reservationInfo>dl>dt{
+	float: left;
+	clear: left;
+	margin-right: 5px;
+	font-weight: bold;
+}
+
+.reservationInfo>dl>dd{
+	margin-left: 140px;
+}
+
+div.ReservationInfo,div.personalInfo, div.creditInfo, div.use{
+	padding: 20px 0;
+}
+input.textInput{
+	border-radius: 4px;
+	background-image: none;
+	background: white;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+	width: 100%;
+	height: 34px;
+	padding: 0px 6px; 
+}
+
+input[type='number']::-webkit-inner-spin-button { display: none; }
+
+.creditCardList img{
+	width: 73px;
+	height: 38px;
+}
+
+.textarea{
+	width: 100%;
+}
+
+div.content{
+	border: 1px solid #E5E5E5;
+}
+
+div.guestInfo, div.additionRequest{
+	border-top: 1px solid #E5E5E5;
+}
+
+div.additionRequest{
+	padding-top: 20px;
+}
+
+div.button{
+	padding-bottom: 20px;
+}
+
+div.second,div.hotelInfo{
+	border-top: 1px solid #E5E5E5;
+}
+
+/*-------------------------------------------------border-------------------------------------*/
+
+.border-between > [class*='col-']:before {
+   background: #e3e3e3;
+   bottom: 0;
+   content: " ";
+   left: 0;
+   position: absolute;
+   width: 1px;
+   top: 0;
+}
+
+.border-between> [class*='col-']{
+	padding: 20px 0px;
+}
+
+.border-between > [class*='col-']:first-child:before {
+   display: none;
+}
+
+.border-top{
+	border-top: 1px solid #e3e3e3;
+}
+/*--------------------------------------STYLE-----------------------------------------------*/
+div.headerAA{
+	background-color: black;
+	color: white;
+	font-size: 1.5rem;
+}
+
+div.headerAA span, div.headerAA p{
+	font-size: 1.5rem;
+}
+
+
+i{
+	color: #B3B3B3;
+}
+.total{
+	font-size: 20px;
+}
+
+span.price,#totalPay {
+	font-size: 20px;
+	font-weight: 500;
+	color: #119A11;
+}
+
+.price:after{
+	content: 'VND';
+	color: #119A11;
+}
